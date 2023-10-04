@@ -1,0 +1,91 @@
+a {
+  color: aquamarine;
+}
+ /*
+li {
+  list-style: none;
+  text-align: center;
+}
+*/
+
+/*
+These are for global attributes that will not make background colors render weird.
+*/
+
+.my-router-app {
+  background-color: #282c34;
+  color: white;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.my-app-header {
+  text-align: center;
+  text-shadow: 5px 3px 5px gray;
+  background-color: aquamarine;
+  color: white;
+  padding: 0.25em;
+  margin-bottom: 1em;
+}
+
+.myNavbar {
+  margin-top: 3em;
+}
+
+.navbarIcon {
+  font-size: 1.5em;
+}
+
+.friendList, .postsList {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+/*
+This would likely put into a different postCard.js and .css Components area, but for now we will leave it here.
+*/
+
+.postCard {
+  color: #282c34;
+  background-color: white;
+  box-shadow: 7px 5px 7px aquamarine;
+  padding: 1em;
+}
+
+.postTitle {
+  font-weight: 600;
+  font-size: 24px;
+  background-color: white;
+  color: #282c34;
+}
+
+.postDate {
+  background-color: white;
+  color:#282c34;
+  font-size: smaller;
+  letter-spacing: .075em;
+  font-weight: 400;
+  text-indent: 0.5em;
+  padding-bottom: 0.5em;
+  margin-bottom: 3em;
+}
+
+.postContent {
+  background-color: white;
+  color:#282c34;
+  box-shadow: 3px 2px 7px gray inset;
+  padding: .75em;
+  border-radius: 0.5em;
+}
+
+/*
+*/
+
+.errorMessage {
+  padding: 1em;
+  align-items: center;
+}
+
+.liarError {
+  color: darkred;
+}
