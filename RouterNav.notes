@@ -1,0 +1,70 @@
+  return (
+    <Router>
+      <div className='container-fluid my-router-app'>
+        <div className='my-app-header'>
+          <h1>My Router App</h1>
+        </div>
+        <Switch>
+          <Route path="/posts">
+            <Posts posts={posts}/>
+          </Route>
+          <Route path="/friends">
+            <Friends names={['Tom','Jax','Stassi']}/>
+          </Route>
+          <Route path="/">
+            <Home/>
+          </Route>
+        </Switch>
+        <ButtonGroup className='navbar myNavbar'>
+          <Button variant='outline-secondary'>
+            <Link to="/" alt="Home"><span className='navbarIcon'><Icon.HouseDoorFill/></span></Link>
+          </Button>
+          <Button variant='outline-secondary'>
+            <Link to="/friends" alt="Friends"><span className='navbarIcon'><Icon.PersonHeart/></span></Link>
+          </Button>
+          <Button variant='outline-secondary'>
+            <Link to="/posts" alt="Posts"><span className='navbarIcon'><Icon.JournalText/></span></Link>
+          </Button>
+        </ButtonGroup>
+      </div>
+    </Router>
+  );
+
+
+          <nav>
+            <ul className='app-bar-top'>
+              <li>
+                <Link to="/Home">Home<span className='icon'><Icon.HouseDoor/></span></Link>
+              </li>
+              <li>
+                <Link to="/Charace">Race/Origin<span className='icon'><Icon.Clipboard2Heart/></span></Link>
+              </li>
+              <li>
+                <Link to="/Charclass">Classes<span className='icon'><Icon.Clipboard2Data/></span></Link>
+              </li>
+              <li>
+                <Link to="/SignUp">Sign Up Form<span className='icon'><Icon.PersonAdd/></span></Link>
+              </li>
+              <li>
+                <Link to="/DMRoster">DM Roster Mgmt<span className='icon'><Icon.CardList/></span></Link>
+              </li>
+            </ul>
+          </nav>
+
+          <ButtonGroup className='navbar'>
+            <Button variant='outline-secondary'>
+              <Link to="/home" alt="Home"><span className='icon'><Icon.HouseDoorFill/></span></Link>
+            </Button>
+            <Button variant='outline-secondary'>
+              <Link to="/charace" alt="Character Race or Origin"><span className='icon'><Icon.Clipboard2HeartFill/></span></Link>
+            </Button>
+            <Button variant='outline-secondary'>
+              <Link to="/charclass" alt="Character Classes"><span className='icon'><Icon.Clipboard2DataFill/></span></Link>
+            </Button>
+            <Button variant='outline-secondary'>
+              <Link to="/SignUp" alt="Sign Up form"><span className='icon'><Icon.PersonAdd/></span></Link>
+            </Button>
+            <Button variant='outline-secondary'>
+              <Link to="/DMRoster" alt="DM Group Roster Management"><span className='icon'><Icon.CardList/></span></Link>
+            </Button>
+          </ButtonGroup>

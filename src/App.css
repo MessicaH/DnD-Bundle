@@ -3,3 +3,22 @@
    color: #282c34;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.icon {
+   margin: 0.5em;
+   background-color: none;
+}
+
+.app-bar {
+   text-align: center;
+   list-style: none;
+}
+
+.app-border-icons {
+   text-align: center;
+}
+
+span {
+   background-image: none;
+   background-color: none;
+}
