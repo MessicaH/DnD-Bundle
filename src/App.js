@@ -31,26 +31,29 @@ export default function App() {
         <h1><span className='icon'><Icon.Hammer/></span>D&D Starter Pack Bundle<span className='icon'><Icon.HeartArrow/></span></h1>
         <h5><span className='icon'><Icon.Dice3/></span>Scroll for initiative<span className='icon'><Icon.Dice5/></span></h5>
       </div>
-      <div className='container-fluid'>
-        <ButtonGroup className='navbar'>
-          <Button variant='outline-dark'>
-            <span className='icon'>Home<Icon.HouseDoorFill /><Link to="/home" alt="Home"></Link></span>
+      <div className='container'>
+        <ButtonGroup className='navbar btn-group-lg'>
+          <Button variant='dark' className='main-nav'>
+          <Link to="/home" alt="Home"><span className='icon'><Icon.HouseDoorFill /></span></Link>
           </Button>
-          <Button variant='outline-dark'>
-            <Link to="/charace" alt="Character Race or Origin">Races/Origin<span className='icon'><Icon.Clipboard2HeartFill /></span></Link>
+          <Button variant='dark'className='main-nav'>
+            <Link to="/charace" alt="Character Race or Origin"><span className='icon'><Icon.Clipboard2HeartFill />
+            </span></Link>
           </Button>
-          <Button variant='outline-dark'>
-            <Link to="/charclass" alt="Character Classes">Classes<span className='icon'><Icon.Clipboard2DataFill /></span></Link>
+          <Button variant='dark' className='main-nav'>
+            <Link to="/charclass" alt="Character Classes"><span className='icon'><Icon.Clipboard2DataFill />
+            </span></Link>
           </Button>
-          <Button variant='outline-dark'>
-            <Link to="/SignUp" alt="Sign Up form">Sign Up<span className='icon'><Icon.PersonAdd /></span></Link>
+          <Button variant='dark' className='main-nav'>
+            <Link to="/SignUp" alt="Sign Up form"><span className='icon'><Icon.PersonAdd /></span></Link>
           </Button>
-          <Button variant='outline-dark'>
-            <Link to="/DMRoster" alt="DM Group Roster Management">DM Roster<span className='icon'><Icon.CardList /></span></Link>
+          <Button variant='secondary' className='main-nav main-nav-restricted'>
+            <Link to="/DMRoster" alt="DM Group Roster Management"><span className='icon'>
+              <Icon.CardList /></span></Link>
           </Button>
         </ButtonGroup>
       </div>
-      <div>
+      <div className='container'>
         <Switch>
           <Route path="/home">
             <Home />
@@ -69,36 +72,43 @@ export default function App() {
           </Route>
         </Switch>
       </div>
-      <div>
-        <h1 className='container-fluid'>
-          <span className='icon'><Icon.Dice1Fill /></span>
-          <span className='icon'><Icon.Border /></span>
-          <span className='icon'><Icon.Dice2Fill /></span>
-          <span className='icon'><Icon.Border /></span>
-          <span className='icon'><Icon.Dice3Fill /></span>
-          <span className='icon'><Icon.Border /></span>
-          <span className='icon'><Icon.Dice4Fill /></span>
-          <span className='icon'><Icon.Border /></span>
-          <span className='icon'><Icon.Dice5Fill /></span>
-          <span className='icon'><Icon.Border /></span>
-          <span className='icon'><Icon.Dice6Fill /></span>
+      <div className='container app-bar'>
+        <h1>
+          <span className='icon-bottom'><Icon.Dice1Fill /></span>
+          <span className='icon-border'><Icon.Border /></span>
+          <span className='icon-border'><Icon.Dice2Fill /></span>
+          <span className='icon-border'><Icon.Border /></span>
+          <span className='icon-border'><Icon.Dice3Fill /></span>
+          <span className='icon-border'><Icon.Border /></span>
+          <span className='icon-border'><Icon.Dice4Fill /></span>
+          <span className='icon-border'><Icon.Border /></span>
+          <span className='icon-border'><Icon.Dice5Fill /></span>
+          <span className='icon-border'><Icon.Border /></span>
+          <span className='icon-border'><Icon.Dice6Fill /></span>
         </h1>
+      </div>
+      <div>
         <nav>
-          <ul className='app-bar'>
+          <ul className='container app-bar-bottom'>
             <li>
-              <Link to="/Home">Home<span className='icon'><Icon.HouseDoor /></span></Link>
+              <Link to="/Home" alt="Home" className="bottom-links">Home<span className='icon'><Icon.HouseDoor />
+              </span></Link>
             </li>
             <li>
-              <Link to="/Charace">Race/Origin<span className='icon'><Icon.Clipboard2Heart /></span></Link>
+              <Link to="/Charace" alt="Character Race or Origin" className="bottom-links">Race/Origin
+              <span className='icon'><Icon.Clipboard2Heart /></span></Link>
             </li>
             <li>
-              <Link to="/Charclass">Classes<span className='icon'><Icon.Clipboard2Data /></span></Link>
+              <Link to="/Charclass" alt="Character Class" className="bottom-links">Classes<span className='icon'>
+                <Icon.Clipboard2Data /></span></Link>
             </li>
             <li>
-              <Link to="/SignUp">Sign Up Form<span className='icon'><Icon.PersonAdd /></span></Link>
+              <Link to="/SignUp" alt="New Player Sign Up Form" className="bottom-links">Sign Up Form
+              <span className='icon'><Icon.PersonAdd /></span></Link>
             </li>
             <li>
-              <Link to="/DMRoster">DM Roster Mgmt<span className='icon'><Icon.CardList /></span></Link>
+              <Link to="/DMRoster" alt="DM Group Roster Management" className="bottom-links bottom-links-restricted">DM Roster Mgmt
+              <span className='icon'><Icon.CardList /></span></Link>
             </li>
           </ul>
         </nav>

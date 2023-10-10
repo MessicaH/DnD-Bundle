@@ -1,24 +1,72 @@
 * {
-   background-color: beige;
-   color: #282c34;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+   color: #282c34;
+}
+
+.shadow-box {
+   box-shadow: 5px 5px 5px #282c34;
+   border-radius: 5px;
 }
 
 .icon {
    margin: 0.5em;
-   background-color: none;
+   color: white;
+}
+
+.icon-border {
+   color: #212529;
+   margin: 0.5em;
 }
 
 .app-bar {
    text-align: center;
    list-style: none;
+   margin-top: 0.5em;
+   margin-bottom: 0.5em;
 }
 
-.app-border-icons {
+.app-bar-bottom {
+   background-color: #424649;
+   opacity: 42%;
+   padding: 0.5em;
+   margin-top: 2em;
+   border-radius: 5px;
+   width: 75%;
+   list-style: none;
    text-align: center;
 }
 
-span {
-   background-image: none;
-   background-color: none;
+.bottom-links {
+   color: white;
+}
+
+.bottom-links:hover {
+   color: darkblue;
+   font-weight: bolder;
+}
+
+.bottom-links-restricted:hover {
+   color: rgb(71, 10, 10);
+   font-weight: 800;
+}
+
+.main-nav {
+   font-size: 1.75em;
+   background-color: #424649;
+}
+
+.main-nav:hover {
+   background-color: #212529;
+}
+
+.main-nav-restricted {
+   border-color: #212529;
+}
+
+.main-nav-restricted:hover {
+   background-color: darkred;
+   border-color: darkred;
 }

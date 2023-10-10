@@ -1,0 +1,73 @@
+
+[
+    {
+     "playername": "Lauren Rowe",
+     "charname": "Elowyn Spellweaver",
+     "charclara": "Elf Cleric",
+     "groupname": "Silverwind Company",
+     "id": "1"
+    },
+    {
+     "playername": "Shawn Rippin",
+     "charname": "Aldric Arcanemage",
+     "charclara": "Human Wizard",
+     "groupname": "Silverwind Company",
+     "id": "2"
+    },
+    {
+     "playername": "William Senger",
+     "charname": "Vesper Nightfox",
+     "charclara": "Dwarf Rogue",
+     "groupname": "Silverwind Company",
+     "id": "3"
+    },
+    {
+     "playername": "Wayne Hickle",
+     "charname": "Seraphina Quickfoot",
+     "charclara": "Halfling Barbarian",
+     "groupname": "Silverwind Company",
+     "id": "4"
+    },
+    {
+     "playername": "Ben D'Amore",
+     "charname": "Zephyrion Spellbinder",
+     "charclara": "Half-Elf Paladin",
+     "groupname": "Silverwind Company",
+     "id": "5"
+    },
+    {
+     "playername": "Dianne Bins",
+     "charname": "Hilda Goldhammer",
+     "charclara": "Half-Orc Bard",
+     "groupname": "Thornblade Alliance",
+     "id": "6"
+    },
+    {
+     "playername": "Lowell Gutkowski",
+     "charname": "Wren Underhill",
+     "charclara": "Tiefling Ranger",
+     "groupname": "Thornblade Alliance",
+     "id": "7"
+    },
+    {
+     "playername": "Whitney Weissnat",
+     "charname": "Branwyn Riverleaf",
+     "charclara": "Gnome Sorcerer",
+     "groupname": "Thornblade Alliance",
+     "id": "8"
+    },
+    {
+     "playername": "Lola Donnelly",
+     "charname": "Grulmok Bonecrusher",
+     "charclara": "Dragonborn Warlock",
+     "groupname": "Ironclad Guardians",
+     "id": "9"
+    },
+    {
+     "playername": "Bryant Durgan",
+     "charname": "Cedric Blackthorn",
+     "charclara": "Aasimar Druid",
+     "groupname": "Ironclad Guardians",
+     "id": "10"
+    }
+   ]
