@@ -14,14 +14,14 @@ Combination of Week 9, 12, and final project concepts for Promineo Tech front-en
 - React
 
 ## To-Do Items
-- Copy/pasta 🍝 Week 9 content and convert into new React components
-- Put above ^^ text and such into Container elements
-- Resolve 🔧 Week 12_FINAL issue for updateState (re-rendering) when an item is removed - or use scrape & replace from Week 15 (which already works) ⚒️
-- Add in Week 16-MyRouterApp bits for navigation and resolved React-Bootstrap-Icons usage ❤️‍🔥
-- Update mockAPI "players" list data with saved .json file for names to have reverted version of players list 🎲
+- ~Copy/pasta 🍝 Week 9 content and convert into new React components~
+- ~Put above ^^ text and such into Container elements~
+- ~Resolve 🔧 Week 12_FINAL issue for updateState (re-rendering) when an item is removed - or use scrape & replace from Week 15 (which already works) ⚒️~
+- ~Add in Week 16-MyRouterApp bits for navigation and resolved React-Bootstrap-Icons usage ❤️‍🔥~
+- ~Update mockAPI "players" list data with saved .json file for names to have reverted version of players list 🎲~
 
 <details>
-<summary>Additional Notes</summary>
+<summary><h2>Additional Notes</h2></summary>
 
 ## Share a live URL
 - Remember to include a link to the live demo site in the README file.
