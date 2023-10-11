@@ -1,3 +1,81 @@
 .app-body {
     padding: 1em;
 }
+
+.charSection {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.charCard {
+    margin: 1em;
+    width: 375px;
+    box-shadow: 3px 5px 7px #282c34;
+    border-color: #424649;
+    border-radius: 5px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.charCard:hover {
+    box-shadow: 12px 10px 14px #424649;
+}
+
+.charTitle {
+    background-color: #424649;
+    color: white;
+}
+
+.charIMG {
+    height: 275px;
+    width: 350px;
+    padding: 0.5em;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='48' patternTransform='scale(2) rotate(160)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,96.9%,1)'/><path d='m19.14 22.25-6.64 11.5-6.64-11.5Zm0-12-6.64 11.5-6.64-11.5Z'  stroke-width='5' stroke='none' fill='hsla(221,44.1%,41.4%,1)'/><path d='M44.14 45.75H30.86l6.64-11.5zm0 12H30.86l6.64-11.5zm0-48H30.86l6.64-11.5Z'  stroke-width='5' stroke='none' fill='hsla(0,0%,100%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+}
+
+.abilityDropdown {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+    opacity: 85;
+}
+
+.abilityDropdown:hover {
+    background-color: rgb(42, 59, 110);
+}
+
+.abilityTable {
+    margin: 1em;
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+    background-color: #b3babe;
+}
+
+.abilityIMG {
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px 7px #282c34;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border-color: white;
+    border-style: groove;
+    border-width: 0.5em;
+    float: right;
+}

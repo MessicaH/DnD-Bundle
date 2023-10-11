@@ -43,30 +43,32 @@ export default function SignUp() {
     
     return (
     <>
-    <div className='formCardBG'>
+    <div>
     <h2 className='container-fluid app-header'>New Player - Sign Up form</h2>
-        <p className='app-instructions'>When you are ready, you can add in your information for the Dungeon Master (DM)
+    <p className='app-instructions'>When you are ready, you can add in your information for the Dungeon Master (DM)
         to review and add you to a new Adventuring Party.<br/>
         Be sure to include your own name, your Character name, and their Race/Origin and Class selections.<br/>
         Your DM will then contact you to let you know the Adventuring Group you are part of.</p>
-        <div className='container formSignUp'>
-            <form>
-                <h3>Enter Your Details<Icon.PersonAdd/></h3>
-                <label>Player Name</label><br />
-                <input onChange={(event) => setNewPlayerPlayername(event.target.value)}
-                    placeholder="Enter the player's name..."></input>
-                <br />
-                <label>Character Name</label><br />
-                <input onChange={(event) => setNewPlayerCharname(event.target.value)}
-                    placeholder="Jackmerius Tacktheratrix"></input>
-                <br />
-                <label>Character Race/Origin & Class</label><br />
-                <input onChange={(event) => setNewPlayerCharclara(event.target.value)}
-                    placeholder="Dwarf Barbarian, etc."></input>
-                <br />
-                <div className='btn-center'><button onClick={(event) => postNewPlayer(event)}
-                    className='btn btn-primary'>Submit</button></div>
-            </form>
+        <div className='formCardBG'>
+            <div className='container formSignUp'>
+                <form>
+                    <h3>Enter Your Details<Icon.PersonAdd/></h3>
+                    <label>Player Name</label><br />
+                    <input onChange={(event) => setNewPlayerPlayername(event.target.value)}
+                        placeholder="Enter the player's name..."></input>
+                    <br />
+                    <label>Character Name</label><br />
+                    <input onChange={(event) => setNewPlayerCharname(event.target.value)}
+                        placeholder="Jackmerius Tacktheratrix"></input>
+                    <br />
+                    <label>Character Race/Origin & Class</label><br />
+                    <input onChange={(event) => setNewPlayerCharclara(event.target.value)}
+                        placeholder="Dwarf Barbarian, etc."></input>
+                    <br />
+                    <div className='btn-center'><button onClick={(event) => postNewPlayer(event)}
+                        className='btn btn-primary'>Submit</button></div>
+                </form>
+            </div>
         </div>
     </div>
     </>

@@ -28,8 +28,8 @@ export default function App() {
   return (
     <Router>
       <div className='container-fluid app-bar'>
-        <h1><span className='icon'><Icon.Hammer/></span>D&D Starter Pack Bundle<span className='icon'><Icon.HeartArrow/></span></h1>
-        <h5><span className='icon'><Icon.Dice3/></span>Scroll for initiative<span className='icon'><Icon.Dice5/></span></h5>
+        <h1><span className='icon-border'><Icon.Hammer/></span>D&D Starter Pack Bundle<span className='icon-border'><Icon.HeartArrow/></span></h1>
+        <h5><span className='icon-border'><Icon.Dice3/></span>Scroll for initiative<span className='icon-border'><Icon.Dice5/></span></h5>
       </div>
       <div className='container'>
         <ButtonGroup className='navbar btn-group-lg'>
@@ -47,7 +47,7 @@ export default function App() {
           <Button variant='dark' className='main-nav'>
             <Link to="/SignUp" alt="Sign Up form"><span className='icon'><Icon.PersonAdd /></span></Link>
           </Button>
-          <Button variant='secondary' className='main-nav main-nav-restricted'>
+          <Button variant='dark' className='main-nav main-nav-restricted'>
             <Link to="/DMRoster" alt="DM Group Roster Management"><span className='icon'>
               <Icon.CardList /></span></Link>
           </Button>
@@ -74,7 +74,7 @@ export default function App() {
       </div>
       <div className='container app-bar'>
         <h1>
-          <span className='icon-bottom'><Icon.Dice1Fill /></span>
+          <span className='icon-border'><Icon.Dice1Fill /></span>
           <span className='icon-border'><Icon.Border /></span>
           <span className='icon-border'><Icon.Dice2Fill /></span>
           <span className='icon-border'><Icon.Border /></span>
@@ -112,7 +112,10 @@ export default function App() {
             </li>
           </ul>
         </nav>
-        </div>
+      </div>
+      <div className='lastEditInfo'>
+          <p><span className='icon-border'><Icon.CCircle/> Created by J. Helmers</span></p>
+      </div>
     </Router>
   );
 }

@@ -2,12 +2,8 @@
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-   color: #282c34;
-}
-
 .shadow-box {
-   box-shadow: 5px 5px 5px #282c34;
+   box-shadow: 3px 5px 7px #282c34;
    border-radius: 5px;
 }
 
@@ -64,9 +60,22 @@ h1, h2, h3, h4, h5, h6, p {
 
 .main-nav-restricted {
    border-color: #212529;
+   width: auto;
 }
 
 .main-nav-restricted:hover {
    background-color: darkred;
    border-color: darkred;
+   width: auto;
+}
+
+.lastEditInfo {
+   text-align: center;
+   margin-top: 2em;
+   font-weight: 350;
+   font-size: smaller;
+}
+
+.lastEditDate {
+   font-weight: 500;
 }
