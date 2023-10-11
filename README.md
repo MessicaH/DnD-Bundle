@@ -19,7 +19,7 @@ Combination of Week 9, 12, and final project concepts for Promineo Tech front-en
 - Pattern Monster
 
 ## To-Do Items
-- Finish "Charclass" page for Classes of D&D for Card elements
+- Finish "Charclass" page for twelve Classes of D&D per each Card element, including: redirect URL, image URL, info, details
 - Launch to live site
 
 <details>
