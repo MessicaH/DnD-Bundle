@@ -1,4 +1,4 @@
-# DnD-Bundle (_in progress_)
+# D&D Beginner's Bundle (_in progress_)
 Combination of Week 9, 12, and final project concepts for Promineo Tech front-end course.
 
 ## Project Summary 📖
