@@ -78,10 +78,11 @@ export default function DMRoster() {
             .then(() => getPlayers())
     }
 
-    // Use "players.json" to reset the MockAPI list when done testing CRUD operations ////////////////////////////////////
+    // Use "players.json" to reset the MockAPI list ////////////////////////////////////
 
     return (
         <>
+        <div className='container'>
             <div className='formSignUpDM'>
             <h2 className='appTitle'>DM - Group Management</h2>
                 <div className='container formNewPlayer'>
@@ -151,6 +152,7 @@ export default function DMRoster() {
                     </form>
                 </div>
             ))}
+        </div>
         </>
     )
 }

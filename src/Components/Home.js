@@ -6,7 +6,7 @@ import "./Home.css";
 export default function Home() {
     return <>
         <h2 className='container-fluid app-header'>Home</h2>
-        <div className='container'>
+        <div className='container main-text'>
             <div className='row app-body'>
                 <div className='column col-md-7'>
                     <p>Dungeons & Dragons (D&D) is a tabletop role-playing game (RPG) that was first published in 1974 by Gary
@@ -30,7 +30,7 @@ export default function Home() {
                         alt="Player's Handbook cover art"></img>
                 </div>
                 <div className='row'>
-                    <div className='column col-lg'>
+                    <div className='column col-lg '>
                         <p>During gameplay, the DM describes the world and presents challenges or scenarios for the players to
                             navigate. Players respond by describing their actions and rolling dice to determine the outcome of those
                             actions. The d20 is often used to resolve these actions, with modifiers from character abilities and
@@ -42,6 +42,7 @@ export default function Home() {
                             battling dragons, solving mysteries, or negotiating with NPCs, Dungeons & Dragons offers endless
                             opportunities for adventure and excitement.</p>
                     </div>
+                    
                 </div>
             </div>
         </div>

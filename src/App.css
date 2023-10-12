@@ -25,37 +25,28 @@
 }
 
 .app-bar-bottom {
-   background-color: #424649;
-   opacity: 42%;
-   padding: 0.5em;
    margin-top: 2em;
-   border-radius: 5px;
-   width: 75%;
-   list-style: none;
+   display: grid;
    text-align: center;
 }
 
 .bottom-links {
-   color: white;
+   color: #282c34;
 }
 
 .bottom-links:hover {
-   color: darkblue;
-   font-weight: bolder;
+   color: blue;
 }
 
 .bottom-links-restricted:hover {
-   color: rgb(71, 10, 10);
-   font-weight: 800;
+   color: red;
 }
 
 .main-nav {
-   font-size: 1.75em;
-   background-color: #424649;
-}
-
-.main-nav:hover {
-   background-color: #212529;
+   color: white;
+   font-style: none;
+   margin: 0.25em;
+   box-shadow: 2px 2px 2px #424649;
 }
 
 .main-nav-restricted {

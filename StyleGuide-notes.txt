@@ -126,3 +126,24 @@ For Character Races page, template for Cards:
                     <a href="/Charace" class="btn btn-primary">More info</a>
                 </div>
             </div>
+
+For Class cards:
+
+<div className="card text-center charCard">
+                    <img class="card-img-top charIMG" src="https://picsum.photos/300/210" alt="Randomly generated image from Lorem Picsum.photos"></img>
+                    <div className='card-header charTitle'>
+                        <h3>Name of Class</h3>
+                    </div>
+                    <div className='card-body'>
+                        <h5 className='card-header'>Hit Dice</h5>
+                        <p className='card-text'>Here is a line of text for placeholding.<br /><span className='charDetails'>
+                            Add 1-# more Hit Points (HP) per Level</span></p>
+                        <h5 className='card-header'>Saving Throws</h5>
+                        <p className='card-text'><span className='charDetails'>Resistance to attacks on:</span>
+                            <br />[something] and [something else]</p>
+                        <h5 className='card-header'>Proficiencies & Skills</h5>
+                        <p className='card-text'>Armor, weapons
+                            <br />Skills selected</p>
+                        <a href="/Charclass" class="btn btn-primary">More info</a>
+                    </div>
+                </div>

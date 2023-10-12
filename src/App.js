@@ -29,27 +29,25 @@ export default function App() {
     <Router>
       <div className='container-fluid app-bar'>
         <h1><span className='icon-border'><Icon.Hammer/></span>D&D Starter Pack Bundle<span className='icon-border'><Icon.HeartArrow/></span></h1>
-        <h5><span className='icon-border'><Icon.Dice3/></span>Scroll for initiative<span className='icon-border'><Icon.Dice5/></span></h5>
+        <h5 className='app-bar'><span className='icon-border'><Icon.Dice3/></span>Scroll for initiative<span className='icon-border'>
+        <Icon.Dice5/></span></h5>
       </div>
       <div className='container'>
         <ButtonGroup className='navbar btn-group-lg'>
-          <Button variant='dark' className='main-nav'>
-          <Link to="/home" alt="Home"><span className='icon'><Icon.HouseDoorFill /></span></Link>
+          <Button variant='dark' className='main-nav' href="/home" alt="Home">
+            Home<span className='icon'><Icon.HouseDoorFill /></span>
           </Button>
-          <Button variant='dark'className='main-nav'>
-            <Link to="/charace" alt="Character Race or Origin"><span className='icon'><Icon.Clipboard2HeartFill />
-            </span></Link>
+          <Button variant='dark' className='main-nav' href="/charace" alt="Character Race or Origin">
+            Race/Origin<span className='icon'><Icon.Clipboard2HeartFill /></span>
           </Button>
-          <Button variant='dark' className='main-nav'>
-            <Link to="/charclass" alt="Character Classes"><span className='icon'><Icon.Clipboard2DataFill />
-            </span></Link>
+          <Button variant='dark' href="/charclass" alt="Character Classes" className='main-nav'>
+            Classes<span className='icon'><Icon.Clipboard2DataFill /></span>
           </Button>
-          <Button variant='dark' className='main-nav'>
-            <Link to="/SignUp" alt="Sign Up form"><span className='icon'><Icon.PersonAdd /></span></Link>
+          <Button variant='dark' className='main-nav' href="/SignUp" alt="Sign Up form">
+            Sign Up<span className='icon'><Icon.PersonAdd /></span>
           </Button>
-          <Button variant='dark' className='main-nav main-nav-restricted'>
-            <Link to="/DMRoster" alt="DM Group Roster Management"><span className='icon'>
-              <Icon.CardList /></span></Link>
+          <Button variant='dark' className='main-nav main-nav-restricted' href="/DMRoster" alt="DM Group Roster Management">
+            <span className='icon'>DM Mgmt<Icon.CardList /></span>
           </Button>
         </ButtonGroup>
       </div>
@@ -87,34 +85,28 @@ export default function App() {
           <span className='icon-border'><Icon.Dice6Fill /></span>
         </h1>
       </div>
-      <div>
-        <nav>
-          <ul className='container app-bar-bottom'>
-            <li>
-              <Link to="/Home" alt="Home" className="bottom-links">Home<span className='icon'><Icon.HouseDoor />
-              </span></Link>
-            </li>
-            <li>
-              <Link to="/Charace" alt="Character Race or Origin" className="bottom-links">Race/Origin
-              <span className='icon'><Icon.Clipboard2Heart /></span></Link>
-            </li>
-            <li>
-              <Link to="/Charclass" alt="Character Class" className="bottom-links">Classes<span className='icon'>
-                <Icon.Clipboard2Data /></span></Link>
-            </li>
-            <li>
-              <Link to="/SignUp" alt="New Player Sign Up Form" className="bottom-links">Sign Up Form
-              <span className='icon'><Icon.PersonAdd /></span></Link>
-            </li>
-            <li>
-              <Link to="/DMRoster" alt="DM Group Roster Management" className="bottom-links bottom-links-restricted">DM Roster Mgmt
-              <span className='icon'><Icon.CardList /></span></Link>
-            </li>
-          </ul>
-        </nav>
+
+      <div className='container app-bar-bottom'>
+        <p>About<br />
+          <Link to="/Home" alt="Home" className="bottom-links">Home
+            </Link>
+        </p>
+        <p>Character<br />
+          <Link to="/Charace" alt="Character Race or Origin" className="bottom-links">Race/Origin
+            </Link><br />
+          <Link to="/Charclass" alt="Character Class" className="bottom-links">Classes
+            </Link>
+        </p>
+        <p>Gameplay<br />
+          <Link to="/SignUp" alt="New Player Sign Up Form" className="bottom-links">Sign Up Form
+            </Link><br/>
+          <Link to="/DMRoster" alt="DM Group Roster Management" className="bottom-links bottom-links-restricted">DM Roster Mgmt
+            </Link>
+        </p>
       </div>
-      <div className='lastEditInfo'>
-          <p><span className='icon-border'><Icon.CCircle/> Created by J. Helmers</span></p>
+      
+      <div className='lastEditInfo app-bar-bottom'>
+          <p><span className='icon-border'>Created by J. Helmers with images and other help from <Link to="https://www.dndbeyond.com/">D&DBeyond.com</Link></span></p>
       </div>
     </Router>
   );

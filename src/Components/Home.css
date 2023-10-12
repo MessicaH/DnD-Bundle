@@ -17,3 +17,12 @@
     border-radius: 10%;
     float: right;
 }
+
+.main-text {
+    border: 1px solid rgb(33, 33, 33);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(33, 33, 33);
+    background-color: white;
+    opacity: 85;
+}

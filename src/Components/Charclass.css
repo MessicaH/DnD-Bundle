@@ -29,6 +29,11 @@
     color: white;
 }
 
+.charDetails {
+    font-style: italic;
+    font-size: smaller;
+}
+
 .charIMG {
     height: 275px;
     width: 350px;
