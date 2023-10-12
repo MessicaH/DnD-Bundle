@@ -20,7 +20,6 @@ Combination of Week 9, 12, and final project concepts for Promineo Tech front-en
 
 ## To-Do Items
 - ~Finish "Charclass" page for twelve Classes of D&D per each Card element, including: redirect URL, image URL, info, details~
-- Read through and check, make copy edits and capitalize for key terms
 - Launch to live site
 ### After Launch Add-Ons
 - Make a Glossary page or widget
