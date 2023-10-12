@@ -1,4 +1,4 @@
-# DnD-Bundle (_in progress_)
+# D&D Beginner's Bundle (_in progress_)
 Combination of Week 9, 12, and final project concepts for Promineo Tech front-end course.
 
 ## Project Summary 📖
@@ -12,16 +12,24 @@ Combination of Week 9, 12, and final project concepts for Promineo Tech front-en
 - JavaScript
 - Bootstrap
 - React
+### Helpful Generators for Content
+- D&D Beyond
+- ChatGPT
+- Lorem Picsum
+- Pattern Monster
 
 ## To-Do Items
-- Copy/pasta 🍝 Week 9 content and convert into new React components
-- Put above ^^ text and such into Container elements
-- Resolve 🔧 Week 12_FINAL issue for updateState (re-rendering) when an item is removed - or use scrape & replace from Week 15 (which already works) ⚒️
-- Add in Week 16-MyRouterApp bits for navigation and resolved React-Bootstrap-Icons usage ❤️‍🔥
-- Update mockAPI "players" list data with saved .json file for names to have reverted version of players list 🎲
+- Finish "Charclass" page for twelve Classes of D&D per each Card element, including: redirect URL, image URL, info, details
+- Read through and check, make copy edits and capitalize for key terms
+- Launch to live site
+### After Launch Add-Ons
+- Make a Glossary page or widget
+- How to Roll a new character section
+- Descriptions of all Skills per Class selection/proficiencies
+- Iterative template for Class and Race/Origin cards. Use JSON for stored information
 
 <details>
-<summary>Additional Notes</summary>
+<summary><h2>Additional Notes</h2></summary>
 
 ## Share a live URL
 - Remember to include a link to the live demo site in the README file.
@@ -37,6 +45,16 @@ Styling created using ChatGPT Assistant [Chat transcript](https://chat.openai.co
 - Choose at least two (but not more than five) features of the app that you are most proud of and explain why.
 - Include the challenges faced in implementing these features and the solutions you came up with to overcome them. 
 - You can demonstrate strong problem-solving skills by providing detailed insight into your development process.
+### Follow the Journey
+Posts from working on this project:
+- After getting core Components pages created, some templated elements - [LinkedIn Post - 10 Oct 23](https://www.linkedin.com/posts/jessicahelmers_frontend-react-router-activity-7117660079432110080-69gx?utm_source=share&utm_medium=member_desktop)
+
+#### Previous To-Do Items
+- ~Copy/pasta 🍝 Week 9 content and convert into new React components~
+- ~Put above ^^ text and such into Container elements~
+- ~Resolve 🔧 Week 12_FINAL issue for updateState (re-rendering) when an item is removed - or use scrape & replace from Week 15 (which already works) ⚒️~
+- ~Add in Week 16-MyRouterApp bits for navigation and resolved React-Bootstrap-Icons usage ❤️‍🔥~
+- ~Update mockAPI "players" list data with saved .json file for names to have reverted version of players list 🎲~
 
 ## Add some code snippets or screenshots
 - Use a section for code snippets to highlight your best code.
