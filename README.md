@@ -26,6 +26,7 @@ Combination of Week 9, 12, and final project concepts for Promineo Tech front-en
 - Make a Glossary page or widget
 - How to Roll a new character section
 - Descriptions of all Skills per Class selection/proficiencies
+- Iterative template for Class and Race/Origin cards. Use JSON for stored information
 
 <details>
 <summary><h2>Additional Notes</h2></summary>
